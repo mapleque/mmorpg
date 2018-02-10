@@ -2,33 +2,42 @@ MMORPG
 ========
 
 - Avatar角色
-    - basic基本信息
-        - name名称
-        - view长相
-    - Property属性
-        - Intelligence智力
-        - Strength力量
-        - Agility敏捷
-        - Haste急速
+    - +Display
+    - +Resource
+    - +Property
+    - +Growth
+    - +Skill
+    - +GearStacks装备栏
+    - +BaggageStacks背包栏
+
+- Display显示
+    - name名称
+
+- Resource资源
     - Health生命
-        - max
-        - cur
     - Mana魔法
-        - max
-        - cur
+    - MaxHealth最大生命
+    - MaxMana最大魔法
+    - RenewHealth恢复生命
+    - RenewMana回复魔法
+
+- Property属性
+    - Intelligence智力
+    - Strength力量
+    - Agility敏捷
+    - Haste急速
+
+- Growth成长
     - Level等级
-        - max
-        - cur
-    - Expeirence经验
-        - max
-        - cur
-    - +Skill技能
-    - +Gear装备
-    - +Baggage背包
+    - Experience经验
+    - MaxLevel最大等级
+    - MaxExperience最大经验
 
 - Skill技能
-    - Damage伤害
-    - Heal治疗
+    - +Display
+    - +Property
+    - +Skill
+    - +Resource
     - Range施放距离
     - Scale影响范围
     - Cast施法时间，0则为瞬发
@@ -38,5 +47,17 @@ MMORPG
     - Period触发周期，0则一直触发
 
 - Item物品
-    - name名称
+    - +Display
     - type类型：装备，消耗品
+
+- Gear装备
+    - +Display
+    - +Property
+    - +Resource
+    - +Skill
+
+- Goods消耗品
+    - +Display
+    - +Property
+    - +Resource
+    - +Skill
