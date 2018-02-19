@@ -13,14 +13,6 @@ Model数据模型
 - Display显示
     - name名称
 
-地图系统
---------
-
-- Direction方向
-- Distance距离
-- Position位置
-- Scale位置范围
-- Range距离范围
 
 成长系统
 --------

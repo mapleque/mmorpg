@@ -3,24 +3,6 @@ Api接口
 
 - target 是一个 Avatar 实例对象
 
-Map地图系统
---------
-- get_position:target
-    - Position
-
-- get_map:Position
-    - list:
-        - target
-        - Position
-        - Distance
-
-- move_direction:target,Direction,Distance
-    - list:
-        - Distance
-        - Position
-
-- move_to:target,Position
-
 Growth成长系统
 --------
 - add_experience:target,Experience
